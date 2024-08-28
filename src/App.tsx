@@ -69,7 +69,7 @@ export const App = () => {
 
 
     return (
-      <div className="p-10 bg-[#4f5f76] ">
+      <div className="p-10 bg-[#4f5f76] min-h-screen">
         <SearchBar
           setQuery={setQuery}
           setCategory={setCategory}
